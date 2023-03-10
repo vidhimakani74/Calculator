@@ -1,6 +1,6 @@
 // display value
 function displayValue(val) {
-    val=document.getElementById("result").value + val;
+    document.getElementById("result").value += val;
   }
   
   // evaluates the digit and return result
